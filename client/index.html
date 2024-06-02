@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente de API REST</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Ítems</h1>
+
+        <!-- Formulario para agregar un nuevo ítem -->
+        <div class="input-container">
+            <input type="text" id="item-input" placeholder="Nuevo ítem" />
+            <button onclick="addItem()">Agregar</button>
+        </div>
+
+        <!-- Lista de ítems -->
+        <ul id="items-list"></ul>
+
+        <!-- Botones para eliminar y actualizar ítems -->
+        <div class="crud-buttons">
+            <select id="item-select"></select>
+            <button onclick="updateItem()">Actualizar</button>
+            <button onclick="deleteItem()">Eliminar</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

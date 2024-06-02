@@ -1,0 +1,17 @@
+{
+  "name": "myapp-server",
+  "version": "1.0.0",
+  "description": "API REST con Node.js y Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
